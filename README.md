@@ -38,8 +38,6 @@ Among the worst-ranked States are Venezuela (156th), Palestine (157th), Türkiye
 
 Mauritania climbed 53 places from the previous year, making it the country that made the most progress. On the other hand, Bhutan dropped 57 places, the worst fall of any country in the world.
 
-<FlatUiTable csv="data.csv" />
-
 ### About the World Press Freedom Index
 
 According to the RSF methodology, the purpose of the World Press Freedom Index is to compare the level of freedom enjoyed by journalists and media in 180 countries and territories, pondering five indicators (political context, legal framework, economic context, sociocultural context, and safety).
