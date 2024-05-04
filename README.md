@@ -1,63 +1,46 @@
----
-datapackage:
-  title: Welcome to your template dataset page!
-  description: This is a template for publishing your dataset with Datahub Cloud. 
-  licenses:
-  - path: http://opendatacommons.org/licenses/pddl/
-    title: Open Data Commons Public Domain Dedication and License v1.0
-  resources:
-  - path: data.csv
-    title: C02 PPM per decade
-    name: c02-per-decade
-    format: csv
-    schema:
-      fields:
-      - name: year
-        type: date
-      - name: co2
-        type: number
----
+# A lot to do: The world state of press freedom is far from ideal
+## *Only 25% of 180 countries enjoy mild-to-bold press freedom*
+## *Nordic countries have the highest press freedom in the planet*
+## *36 countries face serious threats regarding their press freedom and, consequently, to their freedom of speech*
+*By César Heredia, data journalist*
 
-Welcome to the body of your dataset site. Everything above this section is part of the Data package front matter. 
+Every 3rd day of May, the Press Freedom Day is celebrated around the world. Established by the United Nations General Assembly and UNESCO on May 3, 1993, this date vows to recall the importance of a free press, assess press freedom in the world, defend the independence of the media, and pay tribute to journalists who have lost their lives in the exercise of their profession.
 
-# Overview
+Therefore, it’s a good time to review the main insights of the 2024 World Press Freedom Index, a study made annually by Reporters Without Borders (RSF, in French).
 
-Here is a quick overview of the template structure:
+One of the main aspects is that only 4.4% of the countries register a “good situation” of their press freedom. All of them are located in Europe.
 
-![[Overview.png]]
+**Norway remains the place with the highest press freedom in the world** with a score of 91.89, followed by Denmark (89.6), Sweden (88.32), Netherlands (87.73), Finland (86.55), Estonia (86.44), Portugal (85.9), and Ireland (85.59).
+Thirty-seven States (20.56%) record a “fairly good situation”. 45.9% of them (20) are located in the European Union/Balkans zone, 18.9% (7) in Asia-Pacific, 16.2% (6) in the Americas, 13.5% (5) in Africa, and 5.4% in the Community of Independent States (Moldova and Armenia).
 
-## Structured data
+**Switzerland (9th position) and Germany complete the top ten**. Canada (14th) is the best-positioned country in the Americas. 
+New Zealand (19th), East Timor (20th), France (21st), United Kingdom (23rd), Jamaica (24th), Costa Rica (26th), Taiwan (27th), Suriname (28th), Spain (30th), Dominican Republic (35th), South Africa (38th), Australia (39th), Cabo Verde (41st), and Tonga (45th), among others, recorded a fairly good situation. 
 
-```mermaid
-  graph TD;
-      Data-Package-Frontmatter-->Dataset-title
-      Data-Package-Frontmatter-->Data-package-metadata
-      Data-Package-Frontmatter-->Short-description;
-      Data-Package-Frontmatter-->Data-files-list;
-      Data-Package-Frontmatter-->Data-Previews;
-```
+### A worrying reality
 
-Feel free to customize the data package frontmatter accordingly when publishing your own data. 
+75% of the analyzed countries **face different levels of negative situations** regarding their press freedom.
 
-## Unstructured data
+For example, fifty countries (27.78%) registered a “problematic situation”: 40% (20) in Africa, 26% (13) in Europe/Balkans, 20% (10) in the Americas, 10% (5) in Asia-Pacific, and 2% each in the Middle East and North Africa (MENA), and in the CIS.
 
-You can add as many markdown files to your GitHub repository as you like, and you can freely nest them in subdirectories. You can also enhance your content with other data visualisation components and markdown features.
+Among the countries that recorded a problematic situation are Italy (46th spot), Uruguay (51st), Ivory Coast (53rd), United States (55th), Ukraine (61st), South Korea (62nd), Argentina (66th), Japan (70th), Brazil (82nd), Qatar (84th), Greece (88th), and Haiti (93rd).
 
-> Note: For a full list of supported markdown features visit https://flowershow.app/docs/syntax
+Almost four out of 10 countries having a “difficult situation” regarding their press freedom are located in Africa (exactly 38.8%), including Mali (114th), DR Congo (123rd), Cameroon (130th), and Ethiopia (141st). 
 
-Here are some quick examples:
+Nine out of 49 States (18.4%) belonged to the MENA region; while 16 (16.3%, each) were either in Asia-Pacific or the Americas.
+Serbia and Albania (98th and 99th spots, respectively) were the worst European ranked. American-continent nations such as Ecuador (110th), Colombia (119th), Mexico (121st), Peru (125th), and El Salvador (133rd) also registered a difficult situation, according to RSF. 
 
-> [!info] This is cool!
-> Here's a callout block.
-> It supports **markdown** and [[Internal link|wikilinks]].
+Two out of 10 countries suffered a “very serious situation” when it comes to press freedom. Of this group, **a third come from Asia-Pacific**, 25% from the MENA, seven from the CIS, four from the Americas, and four from Africa. 
 
-Or you can quickly embed a piece of code as follows:
+Some of these nations face authoritative regimes, others are going through bloody wars.
 
-```
-const ExampleCode = () => {
-  return <div> .... </div>;
-};
-```
+Among the worst-ranked States are Venezuela (156th), Palestine (157th), Türkiye (158th), India (159th), United Arab Emirates (160th), Russia (162nd), Saudi Arabia (166th), Cuba (168th, worst in the Americas), China (172nd), Turkmenistan (175th, worst of the CIS), Syria (179th, worst in the MENA), North Korea (177th), Afghanistan (168th, worst in Asia-Pacific), and Eritrea (180th, worst-ranked country in the world).
 
-## To read more about how this works, refer to the [docs page](docs).
+Mauritania climbed 53 places from the previous year, making it the country that made the most progress. On the other hand, Bhutan dropped 57 places, the worst fall of any country in the world.
 
+### About the World Press Freedom Index
+
+According to the RSF methodology, the purpose of the World Press Freedom Index is to compare the level of freedom enjoyed by journalists and media in 180 countries and territories, pondering five indicators (political context, legal framework, economic context, sociocultural context, and safety).
+
+RSF explains that despite the index is a snapshot of the situation during the calendar year (January-December) prior to its publication, it’s meant to be seen as an accurate reflection of the situation at the time of publication. 
+
+Therefore, when the press freedom situation changes drastically in a country between the end of the year assessed and publication, the data is updated to take account of the most recent events possible. This may be related to a new war, a coup d'état, a major attack on journalists, or the sudden introduction of an extreme repressive policy.
