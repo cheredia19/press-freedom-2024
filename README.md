@@ -2,6 +2,7 @@
 #### - *Only 25% of 180 countries enjoy mild-to-bold press freedom*
 #### - *Nordic countries have the highest press freedom in the planet*
 #### - *36 countries face serious threats regarding their press freedom and, consequently, to their freedom of speech*
+
 *By César Heredia, data journalist*
 
 Every 3rd day of May, the Press Freedom Day is celebrated around the world. Established by the United Nations General Assembly and UNESCO on May 3, 1993, this date vows to recall the importance of a free press, assess press freedom in the world, defend the independence of the media, and pay tribute to journalists who have lost their lives in the exercise of their profession.
@@ -36,6 +37,8 @@ Some of these nations face authoritative regimes, others are going through blood
 Among the worst-ranked States are Venezuela (156th), Palestine (157th), Türkiye (158th), India (159th), United Arab Emirates (160th), Russia (162nd), Saudi Arabia (166th), Cuba (168th, worst in the Americas), China (172nd), Turkmenistan (175th, worst of the CIS), Syria (179th, worst in the MENA), North Korea (177th), Afghanistan (168th, worst in Asia-Pacific), and Eritrea (180th, worst-ranked country in the world).
 
 Mauritania climbed 53 places from the previous year, making it the country that made the most progress. On the other hand, Bhutan dropped 57 places, the worst fall of any country in the world.
+
+<Table url="data.csv" />
 
 ### About the World Press Freedom Index
 
