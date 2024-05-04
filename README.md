@@ -1,7 +1,7 @@
 # A lot to do: The world state of press freedom is far from ideal
-#### *Only 25% of 180 countries enjoy mild-to-bold press freedom*
-#### *Nordic countries have the highest press freedom in the planet*
-#### *36 countries face serious threats regarding their press freedom and, consequently, to their freedom of speech*
+#### - *Only 25% of 180 countries enjoy mild-to-bold press freedom*
+#### - *Nordic countries have the highest press freedom in the planet*
+#### - *36 countries face serious threats regarding their press freedom and, consequently, to their freedom of speech*
 *By César Heredia, data journalist*
 
 Every 3rd day of May, the Press Freedom Day is celebrated around the world. Established by the United Nations General Assembly and UNESCO on May 3, 1993, this date vows to recall the importance of a free press, assess press freedom in the world, defend the independence of the media, and pay tribute to journalists who have lost their lives in the exercise of their profession.
