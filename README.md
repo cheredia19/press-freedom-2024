@@ -21,6 +21,15 @@ New Zealand (19th), East Timor (20th), France (21st), United Kingdom (23rd), Jam
 
 75% of the analyzed countries **face different levels of negative situations** regarding their press freedom.
 
+## Overall situation of the press freedom worldwide
+<PlotlyBarChart
+  data={{
+    url: 'situation.csv'
+  }}
+  xAxis="Situation"
+  yAxis="Countries"
+/>
+
 For example, fifty countries (27.78%) registered a “problematic situation”: 40% (20) in Africa, 26% (13) in Europe/Balkans, 20% (10) in the Americas, 10% (5) in Asia-Pacific, and 2% each in the Middle East and North Africa (MENA), and in the CIS.
 
 Among the countries that recorded a problematic situation are Italy (46th spot), Uruguay (51st), Ivory Coast (53rd), United States (55th), Ukraine (61st), South Korea (62nd), Argentina (66th), Japan (70th), Brazil (82nd), Qatar (84th), Greece (88th), and Haiti (93rd).
