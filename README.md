@@ -17,6 +17,15 @@ Thirty-seven States (20.56%) record a “fairly good situation”. 45.9% of them
 **Switzerland (9th position) and Germany complete the top ten**. Canada (14th) is the best-positioned country in the Americas. 
 New Zealand (19th), East Timor (20th), France (21st), United Kingdom (23rd), Jamaica (24th), Costa Rica (26th), Taiwan (27th), Suriname (28th), Spain (30th), Dominican Republic (35th), South Africa (38th), Australia (39th), Cabo Verde (41st), and Tonga (45th), among others, recorded a fairly good situation. 
 
+### Number of countries with a fairly good situation per region
+<PlotlyBarChart
+  data={{
+    url: 'fairly_good.csv'
+  }}
+  xAxis="Region"
+  yAxis="Qty"
+/>
+
 ### A worrying reality
 
 75% of the analyzed countries **face different levels of negative situations** regarding their press freedom.
