@@ -1,9 +1,9 @@
 # A lot to do: The world state of press freedom is far from ideal
-#### - *Only 25% of 180 countries enjoy mild-to-bold press freedom*
-#### - *Nordic countries have the highest press freedom in the planet*
-#### - *36 countries face serious threats regarding their press freedom and, consequently, to their freedom of speech*
+- *Only 25% of 180 countries enjoy mild-to-bold press freedom*
+- *Nordic countries have the highest press freedom in the planet*
+- *36 countries face serious threats regarding their press freedom and, consequently, to their freedom of speech*
 
-*By César Heredia, data journalist*
+**_By César Heredia, data journalist_**
 
 Every 3rd day of May, the Press Freedom Day is celebrated around the world. Established by the United Nations General Assembly and UNESCO on May 3, 1993, this date vows to recall the importance of a free press, assess press freedom in the world, defend the independence of the media, and pay tribute to journalists who have lost their lives in the exercise of their profession.
 
@@ -21,7 +21,7 @@ New Zealand (19th), East Timor (20th), France (21st), United Kingdom (23rd), Jam
 
 75% of the analyzed countries **face different levels of negative situations** regarding their press freedom.
 
-## Overall situation of the press freedom worldwide
+### Overall situation of the press freedom worldwide
 <PlotlyBarChart
   data={{
     url: 'situation.csv'
@@ -33,6 +33,15 @@ New Zealand (19th), East Timor (20th), France (21st), United Kingdom (23rd), Jam
 For example, fifty countries (27.78%) registered a “problematic situation”: 40% (20) in Africa, 26% (13) in Europe/Balkans, 20% (10) in the Americas, 10% (5) in Asia-Pacific, and 2% each in the Middle East and North Africa (MENA), and in the CIS.
 
 Among the countries that recorded a problematic situation are Italy (46th spot), Uruguay (51st), Ivory Coast (53rd), United States (55th), Ukraine (61st), South Korea (62nd), Argentina (66th), Japan (70th), Brazil (82nd), Qatar (84th), Greece (88th), and Haiti (93rd).
+
+### Number of countries with a problematic situation per region
+<PlotlyBarChart
+  data={{
+    url: 'problematic.csv'
+  }}
+  xAxis="Region"
+  yAxis="Qty"
+/>
 
 Almost four out of 10 countries having a “difficult situation” regarding their press freedom are located in Africa (exactly 38.8%), including Mali (114th), DR Congo (123rd), Cameroon (130th), and Ethiopia (141st). 
 
