@@ -63,6 +63,15 @@ Some of these nations face authoritative regimes, others are going through blood
 
 Among the worst-ranked States are Venezuela (156th), Palestine (157th), Türkiye (158th), India (159th), United Arab Emirates (160th), Russia (162nd), Saudi Arabia (166th), Cuba (168th, worst in the Americas), China (172nd), Turkmenistan (175th, worst of the CIS), Syria (179th, worst in the MENA), North Korea (177th), Afghanistan (168th, worst in Asia-Pacific), and Eritrea (180th, worst-ranked country in the world).
 
+### Number of countries with a very serious situation per region
+<PlotlyBarChart
+  data={{
+    url: 'very_serious.csv'
+  }}
+  xAxis="Region"
+  yAxis="Qty"
+/>
+
 Mauritania climbed 53 places from the previous year, making it the country that made the most progress. On the other hand, Bhutan dropped 57 places, the worst fall of any country in the world.
 
 ## Ranking of press freedom by country
