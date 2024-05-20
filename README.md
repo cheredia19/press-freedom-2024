@@ -48,6 +48,15 @@ Almost four out of 10 countries having a “difficult situation” regarding the
 Nine out of 49 States (18.4%) belonged to the MENA region; while 16 (16.3%, each) were either in Asia-Pacific or the Americas.
 Serbia and Albania (98th and 99th spots, respectively) were the worst European ranked. American-continent nations such as Ecuador (110th), Colombia (119th), Mexico (121st), Peru (125th), and El Salvador (133rd) also registered a difficult situation, according to RSF. 
 
+### Number of countries with a difficult situation per region
+<PlotlyBarChart
+  data={{
+    url: 'difficult.csv'
+  }}
+  xAxis="Region"
+  yAxis="Qty"
+/>
+
 Two out of 10 countries suffered a “very serious situation” when it comes to press freedom. Of this group, **a third come from Asia-Pacific**, 25% from the MENA, seven from the CIS, four from the Americas, and four from Africa. 
 
 Some of these nations face authoritative regimes, others are going through bloody wars.
